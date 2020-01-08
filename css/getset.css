@@ -1,0 +1,175 @@
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.banxin {
+    width: 375px;
+    height: 603px;
+    background-image: url(../upload/28.jpg);
+    background-size: 375px;
+    background-repeat: no-repeat;
+}
+
+.tobu {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57px;
+    background-image: url(../image/04.jpg);
+    z-index: 2;
+}
+
+.tobu-life {
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 41px;
+    height: 41px;
+}
+
+.tobu-life img {
+    width: 41px;
+    height: 41px;
+}
+
+.tobu-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 132px;
+    height: 53px;
+    text-align: center;
+}
+
+.tobu-right img {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 100px;
+    height: 32px;
+}
+
+.tobu b {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tobu span {
+    position: absolute;
+    top: 28px;
+    left: 55px;
+    color: #bfc4cf;
+    font-size: 10px;
+}
+
+/* 第二部分 */
+.tobu-xm {
+    position: relative;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    height: 76px;
+    text-align: center;
+}
+
+.tobu-xm img {
+    width: 313px;
+    height: 100%;
+}
+
+/* 第三部分 */
+.zjbfen {
+    position: relative;
+    top: 95px;
+    left: 0;
+    width: 100%;
+    height: 280px;
+    background-image: url(../upload/43.png);
+    background-repeat: no-repeat;
+    background-position: 72px 0px;
+    background-size: 228px;
+}
+
+.zjbfen img:nth-child(1) {
+    position: relative;
+    top: -73px;
+    left: 7px;
+    width: 28px;
+    height: 70px;
+}
+
+.zjbfen img:nth-child(2) {
+    position: relative;
+    top: 19px;
+    left: 73px;
+    width: 168px;
+    height: 242px;
+}
+
+.zjbfen img:nth-child(3) {
+    position: relative;
+    top: -73px;
+    right: -140px;
+    width: 28px;
+    height: 70px;
+}
+
+/* 第四部分 */
+.dibulai {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    text-align: center;
+    line-height: 100px;
+}
+
+.dibulai a {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+    height: 32px;
+    line-height: 30px;
+}
+
+.dibulai a span {
+    color: #fff;
+    position: relative;
+    top: -10px;
+    left: 0;
+}
+
+/* 第五部分 */
+.zhhh {
+    width: 100%;
+    height: 310px;
+    background-color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.zhhh p {
+    color: #fff;
+    padding: 1px 0;
+    box-sizing: border-box;
+}
+
+.zhhh p:nth-child(2) {
+    color: #696969;
+}
+
+.zhhh p:nth-child(12) {
+    color: #696969;
+}
+
+.zhhh a {
+    float: right;
+}

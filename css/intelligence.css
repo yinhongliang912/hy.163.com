@@ -1,0 +1,289 @@
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.banxin {
+    width: 375px;
+    height: 100%;
+    background-image: url(../upload/05.jpg);
+}
+
+.tobu {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57px;
+    background-image: url(../image/04.jpg);
+    z-index: 2;
+}
+
+.tobu-life {
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 41px;
+    height: 41px;
+}
+
+.tobu-life img {
+    width: 41px;
+    height: 41px;
+}
+
+.tobu-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 132px;
+    height: 53px;
+    text-align: center;
+}
+
+.tobu-right img {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 100px;
+    height: 32px;
+}
+
+.tobu b {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tobu span {
+    position: absolute;
+    top: 28px;
+    left: 55px;
+    color: #bfc4cf;
+    font-size: 10px;
+}
+
+/* 第二部分 */
+.kaito {
+    width: 100%;
+    height: 340px;
+}
+
+.kaito img:nth-child(1) {
+    width: 100%;
+    height: 340px;
+}
+
+.kaito img:nth-child(2) {
+    position: relative;
+    top: -45px;
+    left: 20px;
+    width: 333px;
+    height: 30px;
+}
+
+.dabf {
+    width: 100%;
+    height: 6300px;
+    background-image: url(../upload/08.jpg);
+}
+
+.dabf li {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.dabf li div {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../upload/31.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 340px;
+    border-radius: 20px 5px 20px 5px;
+}
+
+.dabf li:nth-child(2) div {
+    background-image: url(../upload/34.png);
+}
+
+.dabf li:nth-child(3) div {
+    background-image: url(../upload/09.jpg);
+}
+
+.dabf li:nth-child(4) div {
+    background-image: url(../upload/10.jpg);
+}
+
+.dabf li:nth-child(5) div {
+    background-image: url(../upload/11.jpg);
+}
+
+.dabf li:nth-child(6) div {
+    background-image: url(../upload/12.jpg);
+}
+
+.dabf li:nth-child(7) div {
+    background-image: url(../upload/13.jpg);
+}
+
+.dabf li:nth-child(8) div {
+    background-image: url(../upload/14.jpg);
+}
+
+.dabf li:nth-child(9) div {
+    background-image: url(../upload/15.jpg);
+}
+
+.dabf li:nth-child(10) div {
+    background-image: url(../upload/16.jpg);
+}
+
+.dabf li:nth-child(11) div {
+    background-image: url(../upload/17.jpg);
+}
+
+.dabf li:nth-child(12) div {
+    background-image: url(../upload/18.jpg);
+}
+
+.dabf li:nth-child(13) div {
+    background-image: url(../upload/19.jpg);
+}
+
+.dabf li:nth-child(14) div {
+    background-image: url(../upload/20.jpg);
+}
+
+.dabf li:nth-child(15) div {
+    background-image: url(../upload/35.png);
+}
+
+.dabf li:nth-child(16) div {
+    background-image: url(../upload/21.jpg);
+}
+
+.dabf li:nth-child(17) div {
+    background-image: url(../upload/22.jpg);
+}
+
+.dabf li:nth-child(18) div {
+    background-image: url(../upload/23.jpg);
+}
+
+.dabf li img:nth-child(1) {
+    width: 345px;
+    height: 198px;
+}
+
+.dabf li img:nth-child(2) {
+    position: absolute;
+    top: 185px;
+    left: 0;
+    width: 100%;
+    height: 147px;
+}
+
+.dabf p {
+    float: left;
+    position: relative;
+    top: 225px;
+    left: 28px;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #ffc348;
+}
+
+.dabf li h4 {
+    float: left;
+    display: block;
+    position: relative;
+    top: 225px;
+    left: 28px;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+/* 第四部分 */
+.dibulai {
+    width: 100%;
+    height: 80px;
+    background-color: #424a55;
+    text-align: center;
+    line-height: 100px;
+}
+
+.dibulai a {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+    height: 32px;
+    line-height: 30px;
+}
+
+.dibulai a span {
+    color: #fff;
+    position: relative;
+    top: -10px;
+    left: 0;
+}
+
+/* 第五部分 */
+.xmddi {
+    width: 100%;
+    height: 70px;
+    background-color: #424a55;
+}
+
+.xmddi a {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+}
+
+.xmddi a span {
+    color: #fff;
+    position: relative;
+    top: -4px;
+    left: 0;
+}
+
+.xmddi p {
+    font-size: 14px;
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+/* 第六部分 */
+.zhhh {
+    width: 100%;
+    height: 310px;
+    background-color: #1f1b17;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.zhhh p {
+    color: #696969;
+    padding: 4px 0;
+}
+
+.zhhh a {
+    float: right;
+}

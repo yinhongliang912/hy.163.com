@@ -1,0 +1,283 @@
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.banxin {
+    width: 375px;
+    height: 680px;
+    background-image: url(../upload/05.jpg);
+}
+
+.tobu {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57px;
+    background-image: url(../image/04.jpg);
+    z-index: 2;
+}
+
+.tobu-life {
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 41px;
+    height: 41px;
+}
+
+.tobu-life img {
+    width: 41px;
+    height: 41px;
+}
+
+.tobu-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 132px;
+    height: 53px;
+    text-align: center;
+}
+
+.tobu-right img {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 100px;
+    height: 32px;
+}
+
+.tobu b {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tobu span {
+    position: absolute;
+    top: 28px;
+    left: 55px;
+    color: #bfc4cf;
+    font-size: 10px;
+}
+
+/* 第二部分 */
+.dishan {
+    position: fixed;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.dishan li {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    width: 17%;
+    height: 100%;
+    line-height: 45px;
+}
+
+.dishan li:hover {
+    color: #ffa017;
+    background-image: url(../image/04.png);
+    background-size: 12px;
+    background-position: 26px 0px;
+    background-repeat: no-repeat;
+}
+
+
+.dishan span {
+    color: #333;
+    width: 0.3%;
+    height: 100%;
+}
+
+/* 第三部分 */
+.dabfh {
+    margin-top: 102px;
+    width: 100%;
+    height: 571px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.xiaobf {
+    width: 100%;
+    height: 115px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #999;
+}
+
+.xiaobf img {
+    width: 135px;
+    height: 76px;
+}
+
+.xiaobf-x {
+    position: relative;
+    top: -11px;
+    left: 15px;
+    display: inline-block;
+    width: 190px;
+    height: 76px;
+}
+
+.xiaobf-x h4 {
+    font-size: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: 700;
+}
+
+.xiaobf-x p {
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+/* 第四部分 */
+.kx {
+    width: 100%;
+    height: 37px;
+    text-align: center;
+}
+
+.kx a {
+    display: inline-block;
+    width: 345px;
+    height: 37px;
+    font-size: 13px;
+    color: #333;
+    line-height: 37px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+
+.kx a:hover {
+    color: #333;
+}
+
+
+/* 第五部分 */
+.dibu-shi {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 85px;
+    background-color: #1f1b17;
+    text-align: center;
+}
+
+.dibu-shi li {
+    width: 50%;
+    height: 35px;
+}
+
+.dibu-shi li:nth-child(4) {
+    position: relative;
+    top: 0;
+    left: -14px;
+}
+
+.dibu-shi span {
+    position: relative;
+    top: -11px;
+    left: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+}
+
+/* 第六部分 */
+.zhbf {
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1f1b17;
+    text-align: center;
+}
+
+.zhbf img {
+    width: 16px;
+    height: 17px;
+}
+
+.zhbf span {
+    color: #fff;
+}
+
+.zhbf p {
+    color: #fff;
+}
+
+/* 第七部分*/
+.zhhh {
+    width: 100%;
+    height: 376px;
+    background-color: #1f1b17;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.zhhh p {
+    color: #696969;
+    padding: 4px 0;
+}
+
+.zhhh p:nth-child(2) {
+    color: #fff;
+}
+
+.zhhh p:nth-child(12) {
+    color: #fff;
+}
+
+.zhhh a {
+    float: right;
+}
+
+/* 低部固定 */
+.zhyidd {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 71px;
+    background-image: url(../image/22.png);
+    background-repeat: no-repeat;
+    background-size: 375px;
+}
+
+.zhyidd a {
+    display: inline-block;
+    width: 91px;
+    height: 71px;
+    text-align: center;
+}
+
+.zhyidd a img {
+    width: 40px;
+    height: 55px;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
